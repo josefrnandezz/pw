@@ -1,4 +1,4 @@
-<?php include "../cabecera.php"?>
+<?php include "ConsultasEmpleados.php"?>
 <?php
 $host = "127.0.0.1";
 $username = "pgespejo";
