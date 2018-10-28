@@ -1,4 +1,7 @@
 <?php include "ConsultasEmpleados.php"?>
+
+<h1>Datos empleado</h1>
+
 <?php
 $consulta = new ConsultasEmpleados;
 if ($consulta->dbc == null)
