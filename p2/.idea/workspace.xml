@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fcd9ec0-93b2-4093-b49b-8090526ab29d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultasEmpleados.php" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultasEmpleados.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detalles_empleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/detalles_empleado.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,39 +30,39 @@
     <session id="-2057263811">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
-          <entry key="php" value="9" />
+          <entry key="html" value="3" />
+          <entry key="php" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="PHP" value="9" />
+          <entry key="HTML" value="3" />
+          <entry key="PHP" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4799" />
+          <entry key="php" value="5133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="63" />
-          <entry key="PHP" value="4736" />
+          <entry key="HTML" value="64" />
+          <entry key="PHP" value="5069" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -75,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConsultasEmpleados.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="464">
+              <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
               <folding>
                 <element signature="e#6#84#0#PHP" expanded="true" />
               </folding>
@@ -87,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="389">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -96,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/detalles_empleado.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="330">
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -106,12 +108,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$row</find>
       <find>$emps</find>
+      <find>$row</find>
+      <find>echo</find>
     </findStrings>
     <replaceStrings>
-      <replace>$emp</replace>
       <replace>$datos</replace>
+      <replace>$emp</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,13 +168,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../p1/p1.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../p1/carlosrodriguezsanchez.html" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunDashboard">
@@ -204,18 +207,19 @@
       <workItem from="1539699094214" duration="31000" />
       <workItem from="1540733918566" duration="106000" />
       <workItem from="1540734044154" duration="8547000" />
-      <workItem from="1540751921888" duration="14312000" />
+      <workItem from="1540751921888" duration="15082000" />
+      <workItem from="1540799331238" duration="2633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29457000" />
+    <option name="totallyTimeSpent" value="32860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1366" height="734" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2840909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28863636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,24 +248,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/detalles_empleados.php" />
-    <entry file="file://$PROJECT_DIR$/empleados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/empleados.php" />
     <entry file="file://$PROJECT_DIR$/../p1/p1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../p1/carlosrodriguezsanchez.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -272,17 +263,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../p1/carlosrodriguezsanchez.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/p02-ejemplo/detalles_libro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ConsultasEmpleados.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="464">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
           <folding>
             <element signature="e#6#84#0#PHP" expanded="true" />
           </folding>
@@ -291,15 +289,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="389">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/detalles_empleado.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
