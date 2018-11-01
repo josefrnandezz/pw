@@ -1,25 +1,24 @@
-<?php include "ConsultasEmpleados.php"?>
+<?php include "ConsultasEmpleados.php" ?>
 
 <h1>Datos empleado</h1>
 
 <?php
 $consulta = new ConsultasEmpleados;
 if ($consulta->dbc == null)
-    echo "Error al conectar con la base de datos";
+    $consulta->dbc->errorInfo();
 
 $dni = $_GET["dni"];
-$emps = $consulta->getEmpleados($dni);
+$emps = $consulta->getDatosEmpleados($dni);
 
 foreach ($emps as $emp) {
-    if ($dni == $emp["dni"]) {
-        echo '<p><strong>Nombre: </strong>'.$emp["nombre"].'</p>
-          <p><strong>Apellidos: </strong>'.$emp["apellidos"].'</p>
-          <p><strong>Email: </strong>'.$emp["email"].'</p>
-          <p><strong>DNI: </strong>'.$emp["dni"].'</p>
-          <p><strong>Puesto: </strong>'.$emp["puesto"].'</p>
-          <br/>
-          <a href="index.php">Empleados</a>';
-  }
+   echo "<p><strong>Nombre: </strong>$emp[nombre]</p>
+    <p><strong>Apellidos: </strong>$emp[apellidos]</p>
+    <p><strong>Email: </strong>$emp[email]</p>
+    <p><strong>DNI: </strong>$emp[dni]</p>
+    <p><strong>Puesto: </strong>$emp[puesto]</p>";
+
+   echo "<a href='index.php'>Empleados</a>";
+
 }
 
 $consulta->dbc = null;

@@ -11,10 +11,12 @@
  */
     $consulta = new ConsultasEmpleados;
     if ($consulta->dbc == null)
-        echo "Error al conectar con la base de datos";
+        $consulta->dbc->errorInfo();
+
+    echo '<table border=1>';
 ?>
 
-<table border=1>
+
     <tr>
         <th>Apellidos</th>
         <th>Nombre</th>

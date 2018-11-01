@@ -29,7 +29,8 @@ class ConsultasEmpleados
 
     // funcion para conectar con la db
 
-    public function dbconnect() {
+    public function dbconnect()
+    {
         $dbc = null;
 
         try {
@@ -44,11 +45,35 @@ class ConsultasEmpleados
 
     // funcion para obtener los empleados de la empresa
 
-    public function getEmpleados() {
+    public function getEmpleados()
+    {
         $emps = array();
         $i = 0;
 
         $sentence = $this->dbc->prepare("SELECT * FROM informacion");
+
+        if(!$sentence)
+            $this->dbc->errorInfo();
+
+        if ($sentence->execute()) {
+            while ($row = $sentence->fetch()) {
+                $emps[$i] = $row;
+                $i++;
+            }
+        }
+
+        return $emps;
+    }
+
+    public function getDatosEmpleados($dni)
+    {
+        $emps = array();
+        $i = 0;
+
+        $sentence = $this->dbc->prepare("SELECT * FROM informacion where dni='$dni'");
+
+        if(!$sentence)
+            $this->dbc->errorInfo();
 
         if ($sentence->execute()) {
             while ($row = $sentence->fetch()) {
